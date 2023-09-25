@@ -1,0 +1,152 @@
+@media screen and (max-width:1315px) {
+  .container {
+    width: 1100px;
+  }
+
+  .menu .menu_items a {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width:1160px) {
+
+
+    .menu {
+        height: auto;
+    } 
+
+    .container {
+        width: 100% ;
+        padding: 0 15px;
+        box-sizing : border-box;
+    }
+
+    .header  {
+        display: inline-block;
+        width: 100%;
+    }
+
+    
+
+    .menu .menu_items div {
+     width: 100%;
+    
+    }
+
+    .header input {
+        margin-bottom: 25px;
+    }
+
+    .header .media_logo {
+        float: left;
+    }
+
+    
+    
+}
+
+@media screen and (max-width:860px) {
+
+    .product_img span {
+        /* margin-bottom: 8px; */
+        font-size: 16px;
+    }
+    .articles_items .items h3 {
+        font-size: 18px;
+    }
+
+
+    .footer_items ,.footer_items .items {
+        display: inline-block;
+    }
+
+    .footer_items .items:nth-child(even) {
+        float: left;
+        margin-left: 100px;
+       
+    }
+
+    
+    .footer_items .items:last-child {
+        margin-top: 20px;
+
+    }
+}
+
+
+@media screen and (max-width:768px) {
+   
+    .tollbar {
+        display: inline;
+    }
+
+   .toll_bar .tollbar .right_bar {
+    display: none;
+   }
+   .toll_bar .tollbar .left_bar {
+    float: left;
+   }
+
+   .toll_bar .tollbar .left_bar a {
+    font-size: 12px;
+    float: left;
+   }
+
+   .header .menu_items {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+   }
+   .header .menu_items div {
+    text-align: right;
+    width: 100%;
+   }
+   .header .menu_items div a{
+    display: inline-block;
+    width: calc(100% - 20px);
+    background-color: #eee;
+    margin: 2px 0;
+    padding: 10px 10px;
+    
+   }
+
+   .header input {
+    width: calc(100% - 200px)
+   }
+    
+   
+   .header .media_logo {
+   margin-top: 35px;
+   }
+
+   .main_madia {
+    padding: 80px 0;
+   }
+   
+   .main_madia h1 {
+    font-size: 30px;
+   }
+
+   .main_madia p {
+    line-height: 26px;
+    font-size: 14px;
+    padding: 0;
+   }
+
+  .product_img {
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+
+  }
+
+  .product_items {
+    width: calc(50% - 20px);
+  }
+
+  .product_items  img {
+    /* width: calc(50% - 50px); */
+  }
+}
+
+
